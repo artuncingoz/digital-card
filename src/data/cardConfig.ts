@@ -1,4 +1,4 @@
-import { LucideIcon, Instagram, Linkedin, Globe, Mail, Phone, CreditCard, MapPin, Briefcase, Camera, PenTool, Star } from 'lucide-react';
+import { LucideIcon, Instagram, Linkedin, Globe, Phone, CreditCard, Briefcase, PenTool, Star } from 'lucide-react';
 export type SocialLink = {
     platform: string;
     url: string;
@@ -19,7 +19,7 @@ export interface ServiceItem {
     title: string;
     description: string;
     price?: string; // Opsiyonel fiyat
-    icon: any; // Lucide icon
+    icon: unknown; // Lucide icon
 }
 export interface ProfileConfig {
     name: string;
