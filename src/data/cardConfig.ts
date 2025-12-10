@@ -19,7 +19,7 @@ export interface ServiceItem {
     title: string;
     description: string;
     price?: string; // Opsiyonel fiyat
-    icon: unknown; // Lucide icon
+    icon: LucideIcon; // Lucide icon
 }
 export interface ProfileConfig {
     name: string;
