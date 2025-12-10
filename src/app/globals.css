@@ -25,3 +25,13 @@ body {
     text-wrap: balance;
   }
 }
+/* Chrome, Safari and Opera */
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+/* IE and Edge */
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    /* Firefox */
+    scrollbar-width: none;
+}
